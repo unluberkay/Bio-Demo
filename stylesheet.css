@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Lato;
+    src: url(https://fonts.googleapis.com/css?family=Lato:300,400);
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(45deg, #3ec4ff, rgb(0, 255, 235));
+/*    #0058ff*/
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 0.1em;
+
+}
+
+p {
+    font-family: 'Lato', sans-serif; line-height: 1.4em;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    color: white;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+}
+
+#profilePhoto {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    width: 200px;
+}
+
+#resume {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid white;
+    width: 1000px;
+    margin-bottom: 150px;
+}
+
+h1.name {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#miniDescription {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    min-width: 300px;
+}
+
+#bio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 5px;
+    border: 2px solid white;
+    color: #ffffff;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button:hover {
+    transition: all 0.3s ease 0s;
+    background: white;
+    color: rgba(0, 0, 0, 0);
+    color: #3ec4ff; /*FALLBACK*/
+}
+
+#indexButtons {
+    margin-top: 50px;
+    text-align:center
+}
+
+#goBack {
+    position: fixed;
+}
+
+
+
+
+
+
+
+
